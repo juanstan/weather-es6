@@ -3,7 +3,7 @@ import { Link, Route } from 'react-router-dom';
 import * as _ from "lodash";
 import { Weather } from "../../components/weather.component/Weather";
 import { Sys } from "../../components/sys.component/Sys";
-import { Main } from "../../components/main.component/Main";
+import { Main } from "../main.component/Main";
 import { CityName } from "../../components/city-name.component/CityName";
 import { Card, CardBody, CardTitle, CardText, CardHeader, Button } from 'reactstrap';
 
@@ -36,6 +36,9 @@ export class City extends React.Component<any> {
             fetch(`http://api.openweathermap.org/data/2.5/weather?id=${this.id}&appid=bea13bffb38e3fec68db0481384e8bd4`)
                 .then((response) => response.json())
                 .then((cityInfo) => {
+
+                    console.log(cityInfo);
+
                     this.setState({
                         info:  cityInfo,
                         isFetching: false

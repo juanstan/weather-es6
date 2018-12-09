@@ -31,7 +31,11 @@ var Weather = /** @class */ (function (_super) {
             React.createElement("div", { className: "weather" }, this.state.weather.map(function (condition, i, arr) { return React.createElement("span", null,
                 condition.main,
                 " ",
-                (arr.length - 1 === i) ? '' : ', '); }))));
+                (arr.length - 1 === i) ? '' : ', ',
+                React.createElement("span", { className: "font-weight-light font-italic" },
+                    "(",
+                    condition.description,
+                    ")")); }))));
     };
     return Weather;
 }(React.Component));

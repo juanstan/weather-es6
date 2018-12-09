@@ -21,7 +21,7 @@ export class App extends React.Component {
             <Container>
                 <h1 className="display-3">Weather</h1>
                 <p className="lead text-center">
-                    <span>Meteorology conditions for 5 european countries</span>
+                    <span>Meteorology conditions for 5 european cities</span>
                 </p>
                 <Row>
                     {

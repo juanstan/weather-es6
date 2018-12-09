@@ -15,7 +15,7 @@ import React from 'react';
 import * as _ from "lodash";
 import { Weather } from "../../components/weather.component/Weather";
 import { Sys } from "../../components/sys.component/Sys";
-import { Main } from "../../components/main.component/Main";
+import { Main } from "../main.component/Main";
 import { CityName } from "../../components/city-name.component/CityName";
 import { Card, CardBody, CardTitle, CardText, CardHeader, Button } from 'reactstrap';
 var City = /** @class */ (function (_super) {
@@ -43,6 +43,7 @@ var City = /** @class */ (function (_super) {
             fetch("http://api.openweathermap.org/data/2.5/weather?id=" + this.id + "&appid=bea13bffb38e3fec68db0481384e8bd4")
                 .then(function (response) { return response.json(); })
                 .then(function (cityInfo) {
+                console.log(cityInfo);
                 _this.setState({
                     info: cityInfo,
                     isFetching: false

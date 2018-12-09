@@ -29,7 +29,7 @@ var App = /** @class */ (function (_super) {
         return (React.createElement(Container, null,
             React.createElement("h1", { className: "display-3" }, "Weather"),
             React.createElement("p", { className: "lead text-center" },
-                React.createElement("span", null, "Meteorology conditions for 5 european countries")),
+                React.createElement("span", null, "Meteorology conditions for 5 european cities")),
             React.createElement(Row, null, this.state.cities.map(function (city) {
                 return (React.createElement(Col, { xs: "12", lg: "6" },
                     React.createElement(City, { id: city.id, name: city.name })));

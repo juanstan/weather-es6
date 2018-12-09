@@ -3,7 +3,7 @@ import * as _ from "lodash";
 import * as moment from 'moment';
 import './Main.css';
 import { Container, Row, Col } from 'reactstrap';
-import { Chart } from './../chart.component/Chart';
+import { Chart } from './../../components/chart.component/Chart';
 
 export class Main extends React.Component<any> {
     public state: any;

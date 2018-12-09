@@ -16,7 +16,7 @@ import * as _ from "lodash";
 import * as moment from 'moment';
 import './Main.css';
 import { Row, Col } from 'reactstrap';
-import { Chart } from './../chart.component/Chart';
+import { Chart } from './../../components/chart.component/Chart';
 var Main = /** @class */ (function (_super) {
     __extends(Main, _super);
     function Main(props) {
