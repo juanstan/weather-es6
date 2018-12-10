@@ -17,4 +17,4 @@ Libraries used: React moment lodash rechart
 
 Structure src -- components (react components) -- containers (smart components connected to a api request service) -- assets -- models
 
-On the npm package.json is declare the env param called API_TOKEN to authenticate user (under the script 'start')
+On the npm package.json the env param called API_TOKEN is declared to authenticate user (under the script 'start')
