@@ -1,11 +1,9 @@
 import React from 'react';
 import * as _ from "lodash";
-import { WeatherModel } from "../../models/Weather";
 
-export class Weather extends React.Component<any> {
-    public state: any;
+export default class Weather extends React.Component {
 
-    constructor(props: any){
+    constructor(props){
         super(props);
         this.state = {
             weather: []
@@ -23,7 +21,7 @@ export class Weather extends React.Component<any> {
                 <div className="weather">
                     {
                         this.state.weather.map(
-                            (condition: WeatherModel, i:number, arr:[]) => <span>{ condition.main } {(arr.length - 1 === i) ? '' : ', '}<span className="font-weight-light font-italic">({condition.description})</span></span>
+                            (condition, i, arr) => <span>{ condition.main } {(arr.length - 1 === i) ? '' : ', '}<span className="font-weight-light font-italic">({condition.description})</span></span>
                         )
                     }
                 </div>

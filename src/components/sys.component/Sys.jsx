@@ -3,10 +3,9 @@ import * as _ from "lodash";
 import * as moment from 'moment';
 import './sys.css';
 
-export class Sys extends React.Component<any> {
-    public state: any;
+export default class Sys extends React.Component {
 
-    constructor(props: any){
+    constructor(props){
         super(props);
         this.state = {
             sys: {}
@@ -19,7 +18,7 @@ export class Sys extends React.Component<any> {
     }
 
     render() {
-        let sunset: string, sunrise: string ;
+        let sunset, sunrise;
         sunrise = _.get(this.state, 'sys.sunrise');
         sunset = _.get(this.state, 'sys.sunset');
 

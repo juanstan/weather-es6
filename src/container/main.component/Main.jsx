@@ -3,12 +3,11 @@ import * as _ from "lodash";
 import * as moment from 'moment';
 import './Main.css';
 import { Container, Row, Col } from 'reactstrap';
-import { Chart } from './../../components/chart.component/Chart';
+import Chart from './../../components/chart.component/Chart';
 
-export class Main extends React.Component<any> {
-    public state: any;
+export default class Main extends React.Component {
 
-    constructor(props: any){
+    constructor(props){
         super(props);
         this.state = {
             info: [],
@@ -23,7 +22,7 @@ export class Main extends React.Component<any> {
                 .then((response) => response.json())
                 .then((cityForecast) => {
                     let forecast = _.get(cityForecast, 'list').filter(
-                       (dayForcast: any) => moment(dayForcast.dt_txt).format('hh:mm a') === '09:00 am'
+                       (dayForcast) => moment(dayForcast.dt_txt).format('hh:mm a') === '09:00 am'
                     );
                     this.setState({
                         info:  forecast,
@@ -39,7 +38,7 @@ export class Main extends React.Component<any> {
                 <p className="font-weight-light font-italic">(Sea Level in the next 5 days)</p>
                 <Row>
                 {
-                    this.state.info.map( (forecast: any) => {
+                    this.state.info.map( (forecast) => {
                         return (
                             <Col>
                                 <Row>

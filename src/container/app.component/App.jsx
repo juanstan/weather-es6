@@ -1,18 +1,15 @@
-import * as React from 'react';
+import React from 'react';
 import './App.css';
-import { CityModel } from "../../models/CityModel";
-import { City } from "../city.component/City";
+import City from "../city.component/City";
 import { Container, Row, Col } from 'reactstrap';
 import CityList from './../../assets/cities.json';
 
-export class App extends React.Component {
-    public state: any;
-    public cities: CityModel[];
+export default class App extends React.Component {
 
-    constructor(props: any) {
+    constructor(props) {
         super(props);
         this.state = {
-            cities: CityList
+            cities: CityList //will contain all cities
         }
     }
 
@@ -25,7 +22,7 @@ export class App extends React.Component {
                 </p>
                 <Row>
                     {
-                        this.state.cities.map( (city: CityModel) => {
+                        this.state.cities.map( (city) => {
                             return (
                                 <Col xs="12" lg="6">
                                     <City id={city.id} name={city.name} />

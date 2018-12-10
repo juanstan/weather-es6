@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link, Route } from 'react-router-dom';
 
-export class CityName extends React.Component<any> {
+export default class CityName extends React.Component {
 
-    constructor(props: any){
+    constructor(props){
         super(props);
     }
 
