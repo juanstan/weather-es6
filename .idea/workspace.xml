@@ -2,64 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30c2e539-7146-4bd4-8ef6-a6324581d863" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/container/app.component/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/weather.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/cities.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chart.component/Chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chart.component/Chart.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chart.component/Chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chart.component/Chart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/city-name.component/CityName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/city-name.component/CityName.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/city-name.component/CityName.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/city-name.component/CityName.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sys.component/Sys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sys.component/Sys.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sys.component/Sys.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sys.component/Sys.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/weather.component/Weather.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/weather.component/Weather.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/weather.component/Weather.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/weather.component/Weather.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/app.component/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/app.component/App.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/app.component/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/city.component/City.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/city.component/City.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/city.component/City.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/city.component/City.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/main.component/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/main.component/Main.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/main.component/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/main.component/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/ModelGeneric.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/ModelGeneric.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/ModelGeneric.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/CityModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/CityModel.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/CityModel.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Coords.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Coords.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Coords.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Main.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Sys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Sys.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Sys.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Weather.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Weather.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Weather.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,8 +88,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="7" />
           <entry key="html" value="1" />
-          <entry key="js" value="150" />
+          <entry key="js" value="152" />
           <entry key="json" value="55" />
           <entry key="jsx" value="276" />
           <entry key="ts" value="3" />
@@ -156,7 +101,8 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="55" />
           <entry key="JSX Harmony" value="276" />
-          <entry key="JavaScript" value="150" />
+          <entry key="JavaScript" value="152" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="TypeScript" value="3" />
         </counts>
       </usages-collector>
@@ -164,7 +110,7 @@
         <counts>
           <entry key="babelrc" value="3" />
           <entry key="css" value="1" />
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="html" value="3" />
           <entry key="js" value="29" />
           <entry key="json" value="10" />
@@ -181,7 +127,7 @@
           <entry key="JSON" value="13" />
           <entry key="JSX Harmony" value="25" />
           <entry key="JavaScript" value="29" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="SourceMap" value="1" />
           <entry key="TypeScript" value="7" />
           <entry key="TypeScript JSX" value="8" />
@@ -196,15 +142,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/weather.component/Weather.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/container/city.component/City.jsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -236,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="224">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -254,11 +191,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.babelrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="140">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -266,8 +203,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jest.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            <state relative-caret-position="420">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -323,8 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/container/Details.tsx" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/components/interfaces/Coords.ts" />
         <option value="$PROJECT_DIR$/src/components/interfaces/CityModel.ts" />
         <option value="$PROJECT_DIR$/src/components/components/Weather.tsx" />
@@ -374,6 +318,8 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/container/app.component/App.jsx" />
         <option value="$PROJECT_DIR$/src/assets/cities.json" />
+        <option value="$PROJECT_DIR$/jest.config.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -498,6 +444,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26510066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -586,9 +533,6 @@
           <caret column="45" selection-start-column="45" selection-end-column="45" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/container/app.component/App.js.map">
       <provider selected="true" editor-type-id="text-editor" />
@@ -725,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-756" />
@@ -741,13 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -763,8 +693,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="140">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
